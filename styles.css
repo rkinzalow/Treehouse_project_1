@@ -85,8 +85,8 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: black;
+  color: #ff9904;
 }
 .card {
   margin: 30px;
@@ -166,7 +166,19 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
-
+.story {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 85%;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.story:hover {
+  border-color: #ff99ff;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
