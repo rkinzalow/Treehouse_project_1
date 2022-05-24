@@ -57,19 +57,18 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/chattanooga_cover.jpg') no-repeat top center ;
+  background: url('images/rsz_chattanooga_cover.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 5%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -86,7 +85,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: black;
-  color: #ff9904;
+  color: #ffffff;
 }
 .card {
   margin: 30px;
@@ -94,12 +93,12 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid rgb(0, 0, 0);
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #50505000;
 }
 
 ul.skills {
@@ -172,13 +171,22 @@ a.social:hover {
   max-width: 85%;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid rgb(0, 0, 0);
   border-radius: 6px;
   transition: all .5s;
 }
 .story:hover {
-  border-color: #ff99ff;
+  border-color: #50505000;
 }
+
+.image-right {
+  float: right;
+  max-width: 250px;
+  max-height: 250px;
+  border: 2px solid black;
+  border-radius: 3%;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -198,11 +206,6 @@ a.social:hover {
   .nav {
     max-width: 1200px;
     padding: 0 30px;
-  }
-
-
-  main {
-    padding-top: 20px;
   }
 
   main p {
